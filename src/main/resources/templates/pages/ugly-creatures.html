@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ugly creatures</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<h2>Fossil Formation in Wisconsin</h2>
+<img th:src="@{/img/common-fossils-of-wisconsin.jpg}" alt="Fossil development">
+<p>
+    We will list the uglies creatures ever.
+</p>
+
+<p>Content taken from <a
+        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

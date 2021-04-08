@@ -15,4 +15,10 @@ public class FossilController {
     public String showFossilFacts() {
         return "pages/fossil-facts";
     }
+
+    @RequestMapping("/ugly")
+    public String showUglyFacts() {
+        return "pages/ugly-creatures";
+    }
+
 }
